@@ -336,6 +336,8 @@ a:hover {
 .nav > li > a:focus {
     background: transparent;
     background-color: sandybrown;
+    border-radius: 35%;
+    border: 0;
 }
 
 .navbar-toggle {
@@ -774,9 +776,12 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+.bgc-atomic-tangerine--red{
+    background-color: #bb4b16;
+}
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
@@ -1050,9 +1055,15 @@ h4 {
     padding: 20px 0px;
 
 }
-.container-new{
+.container-new
+{
     width: 60%;
 }
-.row .black{
+.row .black
+{
     color: rgb(8, 8, 8) !important;
+}
+.col-sm-12-black
+{
+    padding-bottom: 10px;
 }
